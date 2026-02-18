@@ -51,18 +51,6 @@ Desktop.ini
 # Mac
 .DS_Store
 
-
-# =========================
-# OUTPUT FILES (GENERATED IMAGES)
-# =========================
-outputs/
-generated/
-*.png
-*.jpg
-*.jpeg
-*.webp
-
-
 # =========================
 # LOG FILES
 # =========================
