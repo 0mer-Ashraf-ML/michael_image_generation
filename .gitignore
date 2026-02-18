@@ -9,12 +9,14 @@
 config.py
 
 
-# =========================
 # PYTHON CACHE
-# =========================
 __pycache__/
-*.py[cod]
-*$py.class
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.cpython-*
 
 
 # =========================
@@ -88,3 +90,5 @@ cache/
 # LOCAL CONFIG OVERRIDES
 # =========================
 local_settings.py
+__pycache__/config.cpython-314.pyc
+__pycache__/config.cpython-314.pyc

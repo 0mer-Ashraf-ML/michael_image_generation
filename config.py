@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_ID = os.getenv("MODEL_ID", "gemini-3-pro-image-preview")
+MODEL_ID = os.getenv("GEMINI_MODEL_ID")
 
 # Cost config
 COST_PER_4K_IMAGE = 0.24
