@@ -1,0 +1,102 @@
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
+.env
+.env.*
+*.env
+
+# Never commit secrets
+config.py
+
+
+# =========================
+# PYTHON CACHE
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# =========================
+# VIRTUAL ENVIRONMENT
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+
+# =========================
+# IDE FILES
+# =========================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+
+# =========================
+# OS FILES
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+
+# =========================
+# OUTPUT FILES (GENERATED IMAGES)
+# =========================
+outputs/
+generated/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+
+
+# =========================
+# BUILD FILES
+# =========================
+build/
+dist/
+*.egg-info/
+
+
+# =========================
+# TEST CACHE
+# =========================
+.pytest_cache/
+
+
+# =========================
+# TEMP FILES
+# =========================
+*.tmp
+*.temp
+
+
+# =========================
+# API RESPONSE CACHE (optional)
+# =========================
+cache/
+
+
+# =========================
+# LOCAL CONFIG OVERRIDES
+# =========================
+local_settings.py
