@@ -11,7 +11,7 @@ HEROES = [
     "Hero 3",
     "Hero 4",
     "Hero 5",
-    "Hero 6",
+    "Hero 6"
 ]
 
 ITERATIONS_PER_HERO = 3
